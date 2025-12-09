@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>My Personal Website</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,12 +12,14 @@
       background-color: #f5f5f5;
       color: #333;
     }
+
     header {
       background-color: #4a90e2;
       color: white;
       text-align: center;
-      padding: 1.5rem;
+      padding: 2rem 1rem;
     }
+
     main {
       max-width: 800px;
       margin: 2rem auto;
@@ -26,6 +28,19 @@
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
+
+    h1, h2 {
+      margin: 0 0 1rem 0;
+    }
+
+    h2 {
+      color: #4a90e2;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
     footer {
       text-align: center;
       padding: 1.5rem;
@@ -33,22 +48,61 @@
       margin-top: 3rem;
       font-size: 0.9rem;
     }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
+
   <main>
-    <h2>About</h2>
-    <p>
-      <!-- Paste your website content here -->
-      Hello! This is my personal website. I am adding my own content here.
-    </p>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Hello! This is my personal website. I am adding my own content here.
+        You can replace this text with whatever you want to share about yourself.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        Add information about your projects, work, or anything you want to showcase.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Add your contact info, social links, or a contact form here.
+      </p>
+    </section>
   </main>
+
   <footer>
-    &copy; 2025 My Website
+    &copy; 2025 My Personal Website
   </footer>
+
 </body>
 </html>
-Rename index.html correctly
